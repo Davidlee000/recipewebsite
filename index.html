@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>David's Recipes</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,25 +13,27 @@
     <main>
         <h2>About this Website</h2>
         <p>Hi there! I'm David. I like cooking. I made this website to learn more about HTML, CSS, and JavaScript.</p>
-        <p> Here are some of my favorite recipes:</p>
+        <p>Here are some of my favorite recipes:</p>
         
         <ul>
             <li><a href="pasta.html">Pasta</a></li>
             <li><a href="curry.html">Curry</a></li> 
+            <li><a href="bread.html">Bread</a></li>
         </ul>
 
         <p>Let's be honest I'm not a pro chef so I don't have a lot of recipes.</p>
-    </main>
-    <div class = "dropdown">
-        <button class="dropbtn" onclick="myfunction()">Dropdown</button>
-        <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
+        
+        <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">More Options</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Submit Recipe</a>
+                <a href="#">Contact Me</a>
+            </div>
         </div>
-
-    </div>
+    </main>
+    
     <footer>
+        <p>&copy; 2024 David's Recipes. All rights reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>
