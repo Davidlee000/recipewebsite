@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Recipe - David's Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>David's Recipes</h1>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="pasta.html" class="nav-link">Pasta</a></li>
+                <li><a href="curry.html" class="nav-link">Curry</a></li>
+                <li><a href="bread.html" class="nav-link">Bread</a></li>
+                <li><a href="#" class="nav-link">About</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Submit a Recipe</h2>
+        <form id="recipeForm" class="recipe-form">
+            <div class="form-group">
+                <label for="recipeName">Recipe Name:</label>
+                <input type="text" id="recipeName" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="recipeDescription">Description:</label>
+                <textarea id="recipeDescription" rows="3" required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="ingredients">Ingredients (one per line):</label>
+                <textarea id="ingredients" rows="5" required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="instructions">Instructions (one step per line):</label>
+                <textarea id="instructions" rows="5" required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="imageUrl">Image URL (optional):</label>
+                <input type="url" id="imageUrl">
+            </div>
+            
+            <button type="submit" class="submit-btn">Generate Recipe Page</button>
+        </form>
+
+        <div id="preview" class="preview-section" style="display: none;">
+            <h3>Preview:</h3>
+            <div id="previewContent"></div>
+            <div class="code-section">
+                <h4>HTML Code:</h4>
+                <textarea id="generatedCode" rows="10" readonly></textarea>
+                <button onclick="copyCode()" class="copy-btn">Copy Code</button>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 David's Recipes. All rights reserved.</p>
+    </footer>
+    <script src="submit-recipe.js"></script>
+</body>
+</html> 
