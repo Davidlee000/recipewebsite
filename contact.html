@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | David's Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>David's Recipes</h1>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="pasta.html" class="nav-link">Pasta</a></li>
+                <li><a href="curry.html" class="nav-link">Curry</a></li>
+                <li><a href="bread.html" class="nav-link">Bread</a></li>
+                <li><a href="user-recipes.html" class="nav-link">User Recipes</a></li>
+                <li><a href="#" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <p class="contact-intro">Have questions or suggestions? I'd love to hear from you!</p>
+            
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select a subject</option>
+                        <option value="recipe">Recipe Question</option>
+                        <option value="suggestion">Website Suggestion</option>
+                        <option value="collaboration">Collaboration</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+
+            <div id="successMessage" class="success-message" style="display: none;">
+                <h3>Thank you for your message!</h3>
+                <p>I'll get back to you as soon as possible.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 David's Recipes. All rights reserved.</p>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+</html> 
