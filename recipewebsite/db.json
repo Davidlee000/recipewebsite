@@ -1,0 +1,58 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Homemade Pasta",
+      "description": "Fresh homemade pasta from scratch",
+      "ingredients": [
+        {
+          "item": "Flour",
+          "amount": "1 cup or 120 grams"
+        },
+        {
+          "item": "Eggs",
+          "amount": "1 whole egg and 1 yolk"
+        }
+      ],
+      "instructions": [
+        "Prepare work surface",
+        "Measure out flour",
+        "Add flour to work surface",
+        "Create a well in the middle of the flour",
+        "Add eggs",
+        "Mix the eggs",
+        "Slowly incorporate the flour into the eggs",
+        "If the dough is too wet add more flour",
+        "Knead the dough until it bounces back when poked",
+        "Let the dough rest for at least 10 minutes covered with plastic wrap",
+        "Roll out the dough",
+        "Fold the dough, sprinkling with flour so it doesn't stick to itself",
+        "Cut the dough into strips",
+        "Boil the pasta in salted water for 2-3 minutes"
+      ],
+      "image": "pasta.jpg"
+    },
+    {
+      "id": "7487",
+      "name": "broccoli cheddar soup",
+      "description": "panera knock off",
+      "ingredients": [
+        "broccoli ",
+        "onions",
+        "cheddar cheese",
+        "chicken stock ",
+        "heavy cream",
+        "butter ",
+        "flour ",
+        "salt ",
+        "pepper"
+      ],
+      "instructions": [
+        "cook onions "
+      ],
+      "imageUrl": "default-recipe-image.jpg",
+      "dateAdded": "2025-02-28T05:47:50.480Z"
+    }
+  ],
+  "messages": []
+}
