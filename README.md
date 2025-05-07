@@ -4,7 +4,7 @@ A personal recipe sharing website built with HTML, CSS, and JavaScript. This pro
 
 ## Live Demo
 
-Visit the live website: [David's Recipes](https://vercel.com/davidlee000s-projects/recipewebsite)
+Visit the live website: [David's Recipes](https://recipewebsite-theta.vercel.app/)
 
 ## Features
 
